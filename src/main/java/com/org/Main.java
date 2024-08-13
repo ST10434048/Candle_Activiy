@@ -14,7 +14,7 @@ public class Main {
         String ScentedOrNorm = br.readLine();
         if (ScentedOrNorm.equals("1")) {
             Scented_Candle candle = new Scented_Candle();
-            System.out.print("Choose a scent: \n1)Lavender\n2)Rosemary\n3)Vanilla\n4)Spearmint\n: ");
+            System.out.print("Choose a scent: \n1)Lavender\n2)Rosemary\n3)Vanilla\n4)Spearmint\n-> ");
             String scent = br.readLine();
             switch (scent) {
                 case "1":

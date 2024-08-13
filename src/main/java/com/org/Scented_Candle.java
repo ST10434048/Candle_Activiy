@@ -17,6 +17,10 @@ public class Scented_Candle extends Candle {
         this.price = height * 3;
     }
 
-
-
+    @Override
+    public String toString() {
+        return "Scented_Candle{" +
+                "scent='" + scent + '\'' +
+                "} " + super.toString();
+    }
 }
