@@ -31,4 +31,12 @@ public class Candle {
     }
 
 
+    @Override
+    public String toString() {
+        return "Candle{" +
+                "colour='" + colour + '\'' +
+                ", height=" + height +
+                ", price=" + price +
+                '}';
+    }
 }
