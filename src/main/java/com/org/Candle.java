@@ -25,4 +25,8 @@ public class Candle {
     public void setHeight(double height) {
         this.height = height;
     }
+
+    public void CandlePrice(double height){//Matteo
+        double candlePrice = height * 2;
+    }
 }
