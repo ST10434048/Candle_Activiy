@@ -11,10 +11,12 @@ public class Scented_Candle extends Candle {
     protected String getScent() {
         return scent;
     }
-
-//ST10442063
+    //ST10442063
     @Override
-    public void Price(int height) {
-        double Price = height * 3;
+    public void CandlePrice(double height) {
+        this.price = height * 3;
     }
+
+
+
 }

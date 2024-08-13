@@ -3,8 +3,8 @@ package com.org;
 public class Candle {
 
     private String colour; //Matteo Declared Candle data fields
-    private double height;
-    private double price;
+    protected double height;
+    protected double price;
 
     public String getColour() { //Xavier declared getters and setters
         return colour;
@@ -26,7 +26,9 @@ public class Candle {
         this.height = height;
     }
 
-    public void CandlePrice(double height){//Matteo
-        double candlePrice = height * 2;
+    public void CandlePrice(double height) {//Matteo
+        this.price = height * 2;
     }
+
+
 }
